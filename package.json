@@ -1,0 +1,26 @@
+{
+  "name": "seeme-master",
+  "version": "1.0.0",
+  "description": "Tinder-like dating app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikelearning91/seeme-master.git"
+  },
+  "author": "Group 7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikelearning91/seeme-master/issues"
+  },
+  "homepage": "https://github.com/mikelearning91/seeme-master#readme",
+  "dependencies": {
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "socket-io": "^1.0.0"
+  }
+}
